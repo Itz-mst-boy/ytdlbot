@@ -22,7 +22,7 @@ class BotText:
     start = "Welcome to YouTube Download bot. Type /help for more information."
 
     help = f"""
-1. This bot should works at all times. If it doesn't, try to send the link again or DM @BennyThink
+1. This bot should works at all times. If it doesn't, try to send the link again or DM @itz_mst_boy
 
 2. At this time of writing, this bot consumes hundreds of GigaBytes of network traffic per day. 
 In order to avoid being abused, 
@@ -32,10 +32,10 @@ every one can use this bot within **{sizeof_fmt(QUOTA)} of quota for every {int(
 
 4. You can optionally choose to become 'VIP' user if you need more traffic. Type /vip for more information.
 
-5. Source code for this bot will always stay open, here-> https://github.com/tgbot-collection/ytdlbot
-    """ if ENABLE_VIP else "Help text"
+5. Source code for this bot will always stay open, here-> tg://need_update_for_some_feature/
+    """ if ENABLE_VIP else "Help text send link"
 
-    about = "YouTube-DL by @BennyThink. Open source on GitHub: https://github.com/tgbot-collection/ytdlbot"
+    about = "YouTube-DL by @itz_mst_boy. Open source on GitHub: tg://need_update_for_some_feature/"
 
     terms = f"""
 1. You can use this service, free of charge, {sizeof_fmt(QUOTA)} per {int(EX / 3600)} hours.
@@ -77,7 +77,7 @@ __I live in a place where I don't have access to Telegram Payments. So...__
 1. afdian: with your order number `/vip 123456`
 2. buy me a coffee: with your email `/vip someone@else.com`
     """ if ENABLE_VIP else "VIP is not enabled."
-    vip_pay = "Processing your payments...If it's not responding after one minute, please contact @BennyThink."
+    vip_pay = "Processing your payments...If it's not responding after one minute, please contact @itz_mst_boy."
 
     private = "This bot is for private use"
     membership_require = f"You need to join this group or channel to use this bot\n\nhttps://t.me/{REQUIRED_MEMBERSHIP}"
